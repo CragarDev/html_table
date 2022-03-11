@@ -1,0 +1,53 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities stylings - START */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Utilities stylings - END */
+
+/* Body stylings - START */
+body {
+    /* background-color: rgb(65, 12, 17); */
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* thead {
+    color: black;
+} */
+
+th {
+    padding: 10px;
+    background-color: cornflowerblue;
+    width: 300px;
+    font-size: 1.5em;
+    margin: 0 30px;
+}
+
+table {
+    margin-top: 50px;
+}
+
+td {
+    width: 200px;
+    background-color: rgb(165, 136, 42);
+    color: whitesmoke;
+    padding: 5px 10px;
+}
+
+/* Body stylings - END */
